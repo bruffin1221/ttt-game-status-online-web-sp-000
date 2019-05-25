@@ -59,3 +59,4 @@ def winner(board)
   board[win?.board[X][O]]
   end
 end
+end
