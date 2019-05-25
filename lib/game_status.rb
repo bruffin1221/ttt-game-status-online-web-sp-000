@@ -54,7 +54,4 @@ def won?(board)
  end
 
 def winner(board)
-  if board ["O"] || board ["X"]
-  board [won(board)]
-  end
-end
+  i
