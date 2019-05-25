@@ -57,4 +57,3 @@ def winner(board)
    won?(board)["O"] or won?(board)["X"]
     return winner
   end
-end
