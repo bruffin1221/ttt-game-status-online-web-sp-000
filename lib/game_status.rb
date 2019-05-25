@@ -58,3 +58,4 @@ def winner(board)
     return nil
   else board [won(board)]
   end
+end
