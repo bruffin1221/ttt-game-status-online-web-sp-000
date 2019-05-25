@@ -54,8 +54,8 @@ def won?(board)
  end
 
 def winner(board)
-  if won?(board)["X"] || won?(board)["O"]
+  if board["X"]  board["O"]
     return nil
-  else false
+  else board[win?.board[X][O]]
   end
 end
