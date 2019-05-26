@@ -56,7 +56,8 @@ def won?(board)
 def winner(board)
   if board[won?(board)[O] || board [won?(board)[X]]
     puts "won"
-  elsif nil
+  elsif
+    nil
   end
 end
 end
