@@ -54,6 +54,6 @@ def won?(board)
  end
 
 def winner(board)
- board[won?(board)[O]]
+ board[won?(board)["O"]]
     return won?(board)
   end
