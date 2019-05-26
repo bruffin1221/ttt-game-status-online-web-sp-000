@@ -59,3 +59,4 @@ if board[win_index][X] || board[win_index][O]
 elsif board [O] || board [X]
   return nil
 end
+end
