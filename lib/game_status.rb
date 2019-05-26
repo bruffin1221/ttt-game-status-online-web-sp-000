@@ -58,3 +58,4 @@ if board [win?(board)[X]] || board[win?(board)[O]]
   puts "won"
 else board ![win?(board)[X]] || !board[win?(board)[O]]
 end
+end
